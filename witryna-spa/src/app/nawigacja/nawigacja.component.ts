@@ -7,9 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NawigacjaComponent implements OnInit {
 
+  title ='Moja witryna SPA'
   constructor() { }
 
   ngOnInit(): void {
+
   }
 
 }

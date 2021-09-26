@@ -11,11 +11,16 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatIconModule } from '@angular/material/icon';
 import { NawigacjaComponent } from './nawigacja/nawigacja.component';
+import { BanerComponent } from './baner/baner.component';
+import {MatCardModule} from '@angular/material/card';
+import { TrescComponent } from './tresc/tresc.component';
 @NgModule({
   declarations: [
     AppComponent,
     OnasComponent,
-    NawigacjaComponent
+    NawigacjaComponent,
+    BanerComponent,
+    TrescComponent
   ],
   imports: [
     BrowserModule,
@@ -28,7 +33,8 @@ import { NawigacjaComponent } from './nawigacja/nawigacja.component';
     }),
     MatButtonModule,
     MatToolbarModule,
-    MatIconModule
+    MatIconModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
