@@ -12,7 +12,7 @@ export class TrescComponent implements OnInit {
     id: 1,
     nazwisko: 'Kowalski',
     wiek: 67,
-    opis: 'Robi nic'
+    opis: 'Robi nico'
   };
   constructor() { }
 
