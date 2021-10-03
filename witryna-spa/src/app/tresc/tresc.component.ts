@@ -10,9 +10,9 @@ export class TrescComponent implements OnInit {
 
   Antoni: Dane = {
     id: 1,
-    nazwisko: 'Maciakowski',
+    nazwisko: 'Kowalski',
     wiek: 67,
-    opis: 'Robi cuda z bronią'
+    opis: 'Robi nic'
   };
   constructor() { }
 
